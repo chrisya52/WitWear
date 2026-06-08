@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import products from '../data/products.json';
+
+const { searchParams } = Astro.url;
+const categoryFilter = searchParams.get('category');
+
+const filteredProducts = categoryFilter 
+    ? products.filter(p => {
+        if (categoryFilter === 'tees') return p.category === 'T-Shirts';
+        if (categoryFilter === 'stickers') return p.category === 'Bumper Stickers';
+        return true;
+    })
+    : products;
+---
+
+<BaseLayout title="Shop">
+    <Navbar />
+    <main class="container mx-auto px-4 py-12 flex-grow">
+        <h1 class="text-4xl font-bold mb-8">
+            {categoryFilter ? (categoryFilter === 'tees' ? 'T-Shirts' : 'Bumper Stickers') : 'All Products'}
+        </h1>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {filteredProducts.map((product) => (
+                <a href={`/products/${product.id}`} class="group">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 transition-all group-hover:shadow-md">
+                        <div class="aspect-square bg-gray-50 flex items-center justify-center p-4">
+                            <img src={product.mockup_url || product.image_url} alt={product.name} class="max-w-full max-h-full object-contain" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-1 group-hover:text-indigo-600">{product.name}</h3>
+                            <p class="text-gray-500 text-sm mb-2">{product.category}</p>
+                            <p class="text-indigo-600 font-bold">${product.price}</p>
+                        </div>
+                    </div>
+                </a>
+            ))}
+            {filteredProducts.length === 0 && (
+                <p class="col-span-full text-center text-gray-500 py-20">We're loading our first batch of humor. Check back in a few minutes!</p>
+            )}
+        </div>
+    </main>
+    <Footer />
+</BaseLayout>

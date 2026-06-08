@@ -1,0 +1,167 @@
+[
+  {
+    "id": "office-sarcasm-tee",
+    "name": "Office Sarcasm Tee",
+    "description": "I'm not arguing, I'm just explaining why I'm right. Perfect for the Monday morning meeting.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/tshirt-office-sarcasm.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/tshirt-office-sarcasm-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "dad-joke-tee",
+    "name": "Anti-Gravity Dad Joke Tee",
+    "description": "I'm reading a book on anti-gravity... it's impossible to put down. A classic dad joke for the classic dad.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/tshirt-dad-joke.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/tshirt-dad-joke-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "pet-humor-tee",
+    "name": "Therapist Pet Tee",
+    "description": "My therapist has four legs and a tail. For every pet lover who knows who the real professional is.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/tshirt-pet-humor.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/tshirt-pet-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "meme-design-tee",
+    "name": "This is Fine Tee",
+    "description": "The ultimate mood. Cartoon dog in a burning room holding coffee.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/tshirt-meme-design.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/tshirt-meme-design-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "coffee-humor-tee",
+    "name": "Adulting is Hard Coffee Tee",
+    "description": "Coffee: Because adulting is hard. A bold script font with a personified coffee mug.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/tshirt-coffee-humor.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/tshirt-coffee-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "office-sarcasm-sticker",
+    "name": "Pretend to Work Sticker",
+    "description": "I pretend to work... they pretend to pay me. Clean sans-serif with coffee cup and desk icons.",
+    "price": 4.99,
+    "category": "Bumper Stickers",
+    "image_url": "/designs/bumper-office-sarcasm.png",
+    "printful_variant_id": 10163,
+    "mockup_url": "/mockups/bumper-office-sarcasm-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "pet-humor-sticker",
+    "name": "Who Rescued Who? Sticker",
+    "description": "Friendly font with paw print icons. Coordinates with t-shirt pet humor theme.",
+    "price": 4.99,
+    "category": "Bumper Stickers",
+    "image_url": "/designs/bumper-pet-humor.png",
+    "printful_variant_id": 10163,
+    "mockup_url": "/mockups/bumper-pet-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "coffee-humor-sticker",
+    "name": "Coffee First Sticker",
+    "description": "Coffee first, decisions later. Bold font with coffee cup icon.",
+    "price": 4.99,
+    "category": "Bumper Stickers",
+    "image_url": "/designs/bumper-coffee-humor.png",
+    "printful_variant_id": 10163,
+    "mockup_url": "/mockups/bumper-coffee-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "summer-humor-tee",
+    "name": "Island Time Tee",
+    "description": "Life's better on island time. A relaxed palm tree and hammock design for when you're officially OOO.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/batch2/tshirt-summer-humor.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/batch2/tshirt-summer-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "relationship-humor-tee",
+    "name": "Annoy for Life Tee",
+    "description": "Marriage: Finding that one special person you can annoy for the rest of your life. The perfect gift for the happy (and honest) couple.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/batch2/tshirt-relationship-humor.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/batch2/tshirt-relationship-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "tech-humor-tee",
+    "name": "Ctrl+Z Life Tee",
+    "description": "If only life had an undo button. A tech-inspired tee for those days when you just need to start over from the last commit.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/batch2/tshirt-tech-humor.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/batch2/tshirt-tech-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "selfcare-humor-tee",
+    "name": "Soft Era Tee",
+    "description": "In my soft era and I'm busy doing absolutely nothing. Go away, I'm cozy.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/batch2/tshirt-selfcare-humor.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/batch2/tshirt-selfcare-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "niche-humor-tee",
+    "name": "Proud Plant Parent Tee",
+    "description": "My kids have leaves and they're very well-behaved. For the parent who's running out of windowsill space.",
+    "price": 24.99,
+    "category": "T-Shirts",
+    "image_url": "/designs/batch2/tshirt-niche-humor.png",
+    "printful_variant_id": 4018,
+    "mockup_url": "/mockups/batch2/tshirt-niche-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "summer-humor-sticker",
+    "name": "Seas the Day Sticker",
+    "description": "Don't just drive, seas the day. A playful bumper sticker for beach lovers and sun seekers.",
+    "price": 4.99,
+    "category": "Bumper Stickers",
+    "image_url": "/designs/batch2/bumper-summer-humor.png",
+    "printful_variant_id": 10163,
+    "mockup_url": "/mockups/batch2/bumper-summer-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  },
+  {
+    "id": "tech-humor-sticker",
+    "name": "Fluent HTML Sticker",
+    "description": "I speak fluent sarcasm and HTML. Let everyone behind you know you're a web dev with a bite.",
+    "price": 4.99,
+    "category": "Bumper Stickers",
+    "image_url": "/designs/batch2/bumper-tech-humor.png",
+    "printful_variant_id": 10163,
+    "mockup_url": "/mockups/batch2/bumper-tech-humor-mockup.png",
+    "print_specs": "PNG, 300 DPI, High-contrast, RGB/sRGB"
+  }
+]

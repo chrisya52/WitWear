@@ -1,0 +1,17 @@
+---
+import '../styles/global.css';
+const { title } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title ? `${title} | WitWear` : 'WitWear - Original & Funny POD Tees & Stickers'}</title>
+	</head>
+	<body class="min-h-screen flex flex-col bg-gray-50 text-gray-900">
+		<slot />
+	</body>
+</html>
